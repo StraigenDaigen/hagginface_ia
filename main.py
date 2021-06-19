@@ -21,7 +21,7 @@ def home():
 #     model = AutoModelForSequenceClassification.from_pretrained(model_name)
 #     classifier = pipeline('sentiment-analysis', model=model, tokenizer=tokenizer)
 #
-
+#prueba
 
 @app.route('/predict')
 def predict():
